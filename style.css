@@ -1,0 +1,169 @@
+
+body{
+    background-image: url(fondo.jpg);
+    margin: 0 auto;
+    width: 75%;
+}
+
+header{
+    background-image: url(banner1.gif);
+    background-color:darkred;
+    color: white;
+    text-shadow: -3px -3px 2px #000;
+    padding: 20px;
+    border: 12px solid #AA9039;
+    text-align: center;
+    font-family:fantasy;
+}
+
+nav{
+   width: 100%;
+    text-align: center;
+    background-color: #AA9039;
+}
+
+nav ul{
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 50px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #21376B;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color:white;
+    background: #21376B;
+    box-shadow: -2px -2px 3px;
+}
+
+section .par_color{
+    color:darkblue;
+}
+
+section {
+    border: 5px solid #AA9039;
+    width: 64%;
+    padding: 3%;
+    background-color: darkred;
+    float: left;
+
+}
+
+section h1{
+    text-align: center;
+    font-style: oblique;
+    font-size: 40px;
+    font-family: serif;
+    color: #AA9039;
+    text-shadow: -2px -2px 2px #000;
+}
+
+section h2{
+    text-align: center;
+    font-style: oblique;
+    font-size: 40px;
+    font-family: serif;
+    color: #AA9039;
+    text-shadow: -2px -2px 2px #000;
+}
+
+section p {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #AA9039;
+}
+
+.lista{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #AA9039;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 15px;
+}
+
+th{
+    text-align: left;
+}
+
+table{
+    border-spacing: 5px;
+    width: 100%;
+    background-color: #AA9039;
+    color: darkred;
+    font-family: sans-serif;
+}
+
+.tabla_1{
+    background-color: #21376B;
+    color: #AA9039;
+}
+aside{
+    width: 24%;
+    padding: 2%;
+    border: 5px solid #AA9039;
+    background-color: #21376B;
+    float: right;
+    text-align: justify;
+}
+
+aside h3{
+    text-shadow: -2px -2px 2px #000;
+    color: white;
+    font-family: serif;
+    font-size: 30px;
+    text-align: center
+}
+
+aside a{
+    text-align: justify;
+    color: white;
+}
+
+.form{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #AA9039;
+}
+
+div{
+    text-align: center;
+}
+
+.contacto{
+    text-align: center;
+}
+
+footer{
+    clear: both;
+    background-color: darkred;
+    font-size: 18px;
+    color: #AA9039;
+    border: 10px solid #AA9039;
+    
+    width: 94%;
+    padding: 3%;
+    
+}
+@import url()
